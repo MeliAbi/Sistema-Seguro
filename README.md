@@ -7,7 +7,7 @@
 - 3 Que un usuario sea Bloqueable quiere decir que se puede bloquear.Esto sucede al hacer el login más de 3 veces con una contraseña incorrecta.
 - 4 Que un usuario sea Eliminable quiere decir que se puede eliminar. Sin embargo la eliminación será lógica a través de una marca en la base de datos.
 - 5 Los objetos usuarios no se pueden duplicar, siendo su nombre de usuario la clave.
-- 6 Los usuarios se* encuentran ordenados* a partir de su nombre de usuario.
+- 6 Los usuarios se *encuentran ordenados* a partir de su nombre de usuario.
 - 7 Si se intenta loguear un usuario que no existe en la base de datos se debe producir la Excepción unlam.pb2.UserNotFound.
 - 8 Si se intenta eliminar un usuario que no sea Eliminable se debe arrojar la excepción java.lang.ClassCastException.
 - 9 Los requisitos de las contraseñas varían entre los usuarios Básicos y los usuarios Administradores.
